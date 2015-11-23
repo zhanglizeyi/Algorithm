@@ -21,7 +21,7 @@ public class check_Prime{
 	
 
 	private boolean prime(int x){
-		for(int i=2;i<x; i++){
+		for(int i=2;i<Math.sqrt(x); i++){
 			if(x%i == 0){
 				return false;
 			}
