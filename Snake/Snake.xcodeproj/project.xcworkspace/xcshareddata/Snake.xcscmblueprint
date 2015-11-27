@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F46ABD704401AB27BF74001B38E90E258EAEE6D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2F46ABD704401AB27BF74001B38E90E258EAEE6D" : 0,
+    "22B7FE45A9BC766DC8BD78CB2F62275435144756" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "58C5AAD1-2324-4DC0-B641-A299C1BC826D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2F46ABD704401AB27BF74001B38E90E258EAEE6D" : "Snake\/",
+    "22B7FE45A9BC766DC8BD78CB2F62275435144756" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Snake",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Snake.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zhanglizeyi\/Algorithm.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22B7FE45A9BC766DC8BD78CB2F62275435144756"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zhanglizeyi\/Snake-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F46ABD704401AB27BF74001B38E90E258EAEE6D"
+    }
+  ]
+}
