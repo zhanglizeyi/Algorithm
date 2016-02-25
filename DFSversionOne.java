@@ -1,5 +1,38 @@
 //undirected graph run DFS
 
+
+/*
+	set all node visited false
+	pick a vertex v from graph
+
+dfs(v)
+	set v as visited 
+	while()
+		if(v has adjcent vertex && adjcent vertex is unvisited):
+			dfs(adjcent vertex)
+
+
+//without using recursion 
+	dfs(){
+		pick a node x ...
+		push(x)
+		visited[x] = true;
+
+		while(stack != empty){
+			n = node at stack top(peek only);
+
+			nextNode = an unvisited node adj to n;
+
+			if(nextNode exist){
+				visited[nextNode] = true;
+				push(nextNode)
+			}else{
+				pop();
+			}
+		}
+	}		
+*/
+
 import java.util.*;
 
 public class DFSversionOne{
