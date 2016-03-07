@@ -1,7 +1,5 @@
 import java.util.*;
 
-
-
 public class changeLessCoins{
 
 	public static int count(int S[], int m, int n){
