@@ -31,7 +31,7 @@ public class Zdfs{
 	}
 
 	public static void dfsRec(int[][] graph, int s){
-		System.out.println("source -> " + s);
+		System.out.println("source -> \n" + s);
 		boolean[] visited = new boolean[graph.length];
 		visited[s] = true;
 
@@ -47,9 +47,9 @@ public class Zdfs{
 						//s a b c d e f 
 		int[][] input = {{0,1,4,0,0,0,0},
 						 {0,0,0,2,0,0,0},
-						 {0,0,0,0,0,5,0},
-						 {0,0,0,0,3,0,0},
 						 {0,0,0,0,0,0,0},
+						 {0,0,0,0,3,0,0},
+						 {0,0,0,0,0,5,0},
 						 {0,0,0,0,0,0,6},
 						 {0,0,0,0,0,0,0}};
 
