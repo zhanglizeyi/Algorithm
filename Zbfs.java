@@ -4,7 +4,7 @@ public class Zbfs{
 
 
 
-			//create queue Q and add v to it 
+		//create queue Q and add v to it 
 		//create an array A to keep track of checkec vertices
 
 		//while Q is not empty 
