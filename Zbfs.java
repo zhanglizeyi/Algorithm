@@ -26,6 +26,7 @@ public class Zbfs{
 
 		while(!q.isEmpty()){
 			int temp = q.poll();
+			System.out.println("each layer " + temp);
 			for(int j=0; j<graph.length; j++){
 				if(graph[temp][j] > 0 && visited[j] == false){
 					System.out.println("this is the graph "+ graph[temp][j]);
@@ -34,7 +35,6 @@ public class Zbfs{
 					countVertices += graph[temp][j];
 				}
 			}
-			System.out.println("each layer " + temp);
 		}
 		return countVertices;
 	}

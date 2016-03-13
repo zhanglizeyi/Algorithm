@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Zdfs{
 
-	public static int dfs(int[][] graph, int s){
+	public static void dfs(int[][] graph, int s){
 		int countV=0;
 		//stack 
 		Stack<Integer> stack = new Stack<Integer>();
@@ -11,23 +11,22 @@ public class Zdfs{
 		stack.push(s);
 
 		while(!stack.isEmpty()){
-			int temp = stack.peek();
+			int temp = stack.peek(); //take the first vertice
 			int j=0;
+
 			for(j=0; j<graph.length; j++){
 				if(graph[temp][j]>0 && visited[j]==false){
 					visited[j] = true;//visited is true
 					stack.push(j);//put into stack
-					System.out.print("the index "+j+" graph "+ graph[temp][j]);
+					System.out.println("the index "+j+" graph "+ graph[temp][j]);
 					break; //after visited jump out the loop
 				}
 			}
 			System.out.println();
-
 			if(j == graph.length){
 				stack.pop();
 			}
-		}
-		return stack.peek(); 
+		} 
 	}
 
 	public static void dfsRec(int[][] graph, int s){
@@ -54,9 +53,8 @@ public class Zdfs{
 						 {0,0,0,0,0,0,0}};
 
 		System.out.println("length -> " + input.length);
-		//System.out.println(dfs(input, 0));
-		dfsRec(input,0);
-
+		dfs(input, 0);
+		//dfsRec(input,0);
 	}
 }
 
