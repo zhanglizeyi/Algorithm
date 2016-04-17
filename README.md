@@ -12,7 +12,7 @@ export EDITOR = "subl"
 
 #For ssh-key possible solution 
 1. check your existing RSA-key  -> ls -a ~/.ssh/
-    if don't have any, genernate a new one by ssh-keygen
+  if don't have any, genernate a new one by ssh-keygen
 2. check agent pid by  -> eval "$(ssh-agent -s)"  
 3. identity added -> ssh-add ~/.ssh/id_rsa
-4. add id_rsa.pub to ssh key in github/bitbucket...
+4. add id_rsa.pub to ssh key in github/bitbucket... 
