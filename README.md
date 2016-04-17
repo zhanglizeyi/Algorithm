@@ -8,8 +8,6 @@ alias nano="subl"
 export EDITOR = "subl"
 
 
-
-
 #For ssh-key possible solution 
 1. check your existing RSA-key  -> ls -a ~/.ssh/
   if don't have any, genernate a new one by ssh-keygen
